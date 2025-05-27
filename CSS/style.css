@@ -1,0 +1,227 @@
+:root {
+  --primary: #ff4db5;
+  --bg-dark: #3e3e3e;
+  --bg-light: #fdf1f9;
+  --bg-white: #fff;
+  --bg-salmon: #ff7373;
+  --bg-grey: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: var(--bg-white);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  padding: 4rem 1.5rem;
+  max-width: var(--text-max-width);
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #e643a1;
+}
+
+.hero {
+  background: url('images/header-bg.jpg') no-repeat left center / cover;
+  color: #ff4db5;
+  padding: 8rem 2rem;
+  text-align: left;
+}
+
+.hero .nav {
+  max-width: var(--text-max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-dark);
+  padding: 1rem 2rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-top: 3rem;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.skills {
+  background-color: var(--bg-light);
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 280px;
+}
+
+.image, .creatie-img, .samen-img {
+  background: var(--bg-grey);
+  height: 150px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projecten {
+  background: var(--bg-white);
+  text-align: center;
+}
+
+.projecten-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.project-type {
+  width: 280px;
+}
+
+.samenwerken {
+  background: var(--bg-light);
+  text-align: center;
+}
+
+.ervaringen {
+  background: var(--bg-salmon);
+  color: white;
+}
+
+.ervaringen h2 {
+  margin-bottom: 2rem;
+}
+
+.ervaringen ul {
+  gap: 1rem;
+}
+
+.ervaringen ul li {
+  gap: 0.75rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.creaties {
+  background: var(--bg-light);
+}
+
+.creatie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.creatie .info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.creatie-img {
+  flex: 1;
+  min-width: 250px;
+}
+
+.testimonial {
+  text-align: center;
+  background: var(--bg-white);
+  font-style: italic;
+  max-width: var(--text-max-width);
+  margin: 0 auto;
+}
+
+.contact {
+  background-color: var(--bg-grey);
+}
+
+.contact-flex {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: var(--text-max-width);
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+form {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form input, form textarea {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--primary);
+  color: white;
+}
+
+.socials a {
+  margin: 0 0.5rem;
+  color: white;
+}
